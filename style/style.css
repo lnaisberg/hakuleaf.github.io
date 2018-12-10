@@ -1,0 +1,38 @@
+body{
+    font-family: 'VT323', monospace;
+    color: #fcfcfc;
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+	width: 70px;
+	height: 74px;
+	position: absolute;
+	top: 1.5%;
+	left: 2.5%;
+}
+
+a{
+	font-size: 50px;
+	font-family: 'VT323', monospace;
+    color: #fcfcfc;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover{
+	cursor: pointer;
+	color: #f7a6e4;
+}
+
+.container{
+	display: flex;
+	padding-left: 0%;
+	justify-content: space-around;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+}
+
