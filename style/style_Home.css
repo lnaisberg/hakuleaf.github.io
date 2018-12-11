@@ -1,6 +1,8 @@
 @font-face {
    font-family: false3d;
-   src: url("fonts/False3d.ttf");
+   src: url("False3d.ttf");
+
+   /* ttf & woff*/
 }
 
 #template{

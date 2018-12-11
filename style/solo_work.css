@@ -1,0 +1,49 @@
+body {
+	height: 300vh;
+	color: white;
+	/*background-color: #8c14fc;*/
+	margin: 0;
+}
+
+.right, .left{
+	display: inline-block;
+	width: 50%;
+	height: 300vh;
+	margin: 0;
+	padding: 0;
+	transition: 0.8s all;
+	position: absolute;
+	z-index: -10;
+}
+
+.right{
+	background-color: #8c14fc;
+}
+
+.left{
+	background-color: #8c14fc;
+	left: 50%;
+}
+
+.fixed{
+	position: fixed;
+	width: 100%;
+}
+
+.landing{
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+
+.right .landing{
+	background-image: url("../images/harry_mic.jpg");
+}
+
+.left .landing{
+	background-image: url("../images/harry_colors.jpg");
+}
+
+

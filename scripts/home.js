@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	var i = 0;
-	var images = ["bckg1_copy.png", "bckg2.jpeg", "bckg3.png"];
+	var images = ["bckg1_copy.png", "bckg2.jpg", "bckg3.png"];
 	$("#template").css("background-image", "url(images/" + images[i] + ")");
 	var i = 1;
 
