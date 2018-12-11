@@ -47,4 +47,9 @@ iframe{
 	width: 12%;
 	height: 12%;
 	display: none;
+	transition-timing-function: ease-in;
+}
+
+.icon:hover{
+	transform: scale(1.1);
 }
