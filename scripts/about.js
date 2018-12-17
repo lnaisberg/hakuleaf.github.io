@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	var myText = "Lorem ipsum dolor sit amet, postea impetus erroribus eu sea, no etiam fastidii maluisset mea. Ea cum suas mundi iudico, vim ea ferri summo detraxit, idque ullamcorper no pro. Mel te detraxit prodesset, te vis alii suavitate dissentiet. Inani mundi fabellas est ex. Cu utinam dolore graece eum, an prima facer mel. Ne hinc illud nihil vis, cum ad insolens abhorreant. Senserit definitionem ex vim, duo an voluptua tractatos efficiantur. Per in habeo atomorum adversarium.";
+	var myText = "Harry W. Lopez III is a singer/songwriter from East New York, Brooklyn. He is known on stage by his alter-ego Haku Leaf, the title of his solo project. His stage presence as Haku Leaf is imbued with energy and passion that spills onto his audience during concerts. His solo work takes form as a diverse and abstract form of music that displays his musical roots from hip hop and funk to rock & roll and Caribbean soul. He is currently working on his first album as a solo artist titled Of the Virgo, scheduled to debut in 2019.";
 	var newp = myText.substring(0, 5);
 
 	console.log(myText);
@@ -30,16 +30,7 @@ $(document).ready(function(){
 		{
 			addSubstring(i);
 		}
-	},1000);
-
-	
-
-
-		
-
-		
-
-
+	},600);
 	
 
 });

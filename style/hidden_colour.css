@@ -9,11 +9,12 @@
 	z-index: -10;
 }
 
-iframe{
+.album{
 	width: 25%;
+	height: 70%;
 	position: absolute;
-	top: 63%;
-	left: 5%;
+	top: 20%;
+	left: 71%;
 	display: none;
 }
 
@@ -35,6 +36,17 @@ iframe{
 	display: none;
 }
 
+.about{
+	position: absolute;
+	top: 55%;
+	width: 20%;
+	margin-left: 5%;
+	margin-top: 2%;
+	border-radius: 1.5%;
+	font-size: 20px;
+	display: none;
+}
+
 .contact{
 	width: 30%;
 	display: inline-block;
@@ -53,3 +65,10 @@ iframe{
 .icon:hover{
 	transform: scale(1.1);
 }
+
+.instagram-media{
+	position: relative;
+	left: 50%;
+	bottom: 30%;
+}
+

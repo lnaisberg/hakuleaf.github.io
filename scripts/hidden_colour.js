@@ -24,4 +24,8 @@ $(document).ready(function(){
 		$("iframe").fadeIn(1000);
 	},1300);
 
+	setTimeout(function(){
+		$(".about").fadeIn(1000);
+	},1600);
+
 });

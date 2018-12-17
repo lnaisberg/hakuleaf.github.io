@@ -32,7 +32,6 @@
 	height: 20%;
 	position: absolute;
 	display: none;
-	/*transition-duration: .2s;*/
 	transform-style: center;
 	transition-timing-function: ease-in;
 }
@@ -68,23 +67,8 @@
 }
 
 .icon:hover{
-	/*animation-duration: .3s;
-	animation-name: enlarge;
-	animation-direction: alternate;*/
-	/*width: 27%;
-	height: 27%;*/
 	transform: scale(1.1);
 }
 
-/*@keyframes enlarge {
-	from {
-		width: 20%;
-		height: 20%;
-	}
 
-	to {
-	 	width: 21%;
-		height: 21%;
-	}
-}*/
 
